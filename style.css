@@ -1,0 +1,69 @@
+@font-face {
+    font-family: grotesk;
+    src: url(./assets/fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+* {font-family: grotesk;}
+
+/* navbar */
+
+.nav-container button {border-color: #191A23;color: #191A23;}
+.nav-container button:hover {border-color: #191A23 !important; color: #191A23 !important;}
+.nav-container button:active {border-color: #191A23 !important; color: #191A23 !important;} 
+.nav-container a {font-weight: 600;font-size: 20px;}
+@media  only screen and (min-width: 992px) and (max-width:1400px)  {
+    .nav-container ul {padding-left: 200px;}
+}
+@media  only screen and (min-width: 992px) and (max-width:1200px)  {
+    .nav-container ul {padding-left: 100px;}
+}
+/* herosection */
+
+.hero-section h1 {line-height: 65px;font-size: 60px;}
+.hero-section p {font-size: 20px;}
+
+
+/* services */
+
+.services-h {font-size: 40px;background-color: #B9FF66;height: max-content;width: max-content; }
+.services .first-card {background: #F3F3F3;   box-shadow: 0px 5px 0px 0px #191A23;
+
+}
+.first-card >div {padding-top: 50px;}
+.services .first-card span {background-color: #B9FF66;
+    font-size: 30px;font-weight: 500;
+}
+.first-card .icon {width: 30px;}
+.first-card p {font-size:20px;}
+
+.second-card{background-color: #B9FF66;box-shadow: 0px 5px 0px 0px #191A23;
+}
+.second-card > div {padding-top: 50px;}
+.services .second-card span {background-color: #F3F3F3;
+    font-size: 30px;font-weight: 500;
+}
+.second-card .icon {width: 30px;}
+.second-card p {font-size:20px;}
+.icon-div {margin-top: 100px;}
+
+
+/* working process */
+.num {background-color: #B9FF66; box-shadow: 0px 5px 0px 0px #191A23;}
+.num div {display: inline-block;}
+.num1 {font-size: 60px;}
+.process1{font-size: 30px;vertical-align: 10px;font-weight: 500;padding-left: 20px;}
+.working-section img { vertical-align: -8px; padding-left: 900px;}
+@media  only screen and (max-width:1400px) {
+    .working-section img { padding-left: 700px;}
+}
+@media  only screen and (max-width:1200px) {
+    .working-section img { padding-left: 500px;}
+}
+@media  only screen and (max-width:996px) {
+    .working-section img { padding-left: 300px;}
+}
+@media  only screen and (max-width:700px) {
+    .working-section img { padding-left: 5px;}
+}
+.num2 {background-color: #F3F3F3;box-shadow: 0px 5px 0px 0px #191A23;}
+.num2 div {display: inline-block;}
+.working-section .row > div {border-radius: 50px;}
