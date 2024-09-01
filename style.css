@@ -10,6 +10,9 @@
 .nav-container button:hover {border-color: #191A23 !important; color: #191A23 !important;}
 .nav-container button:active {border-color: #191A23 !important; color: #191A23 !important;} 
 .nav-container a {font-weight: 600;font-size: 20px;}
+@media  only screen and (min-width: 992px) and (max-width:2000px)  {
+    .nav-container ul {padding-left: 300px;}
+}
 @media  only screen and (min-width: 992px) and (max-width:1400px)  {
     .nav-container ul {padding-left: 200px;}
 }
